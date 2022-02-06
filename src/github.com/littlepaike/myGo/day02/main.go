@@ -4,7 +4,7 @@ import "fmt"
 
 var (
 	name string
-	age  int
+	//age  int
 	isOk bool
 )
 
@@ -32,6 +32,9 @@ const (
 //)
 
 func main() {
+	var age int
+	var num int
+	num = 1
 	name = "理想"
 	age = 18
 	isOk = true
@@ -39,7 +42,8 @@ func main() {
 	fmt.Printf("name:%s", name) //%s 占位符 使用name变量的值去替换占位符
 	fmt.Println(age)
 	fmt.Print(isOk)
-
+	fmt.Println()
+	fmt.Println(num)
 	fmt.Println(m1)
 	fmt.Println(m2)
 	fmt.Println(m3)
